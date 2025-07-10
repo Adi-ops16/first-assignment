@@ -20,6 +20,9 @@
   font-style: normal;
   font-variation-settings:
     "wdth" 100;}
+    main{
+        background-color:rgba(223, 222, 255, 0.167) ;
+    }
 
 /* shared-styles */
 .btn{
@@ -69,7 +72,6 @@ header{
 /* action-styles */
 
 .action{
-    background-color: rgba(212, 211, 255, 0.203);
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -91,4 +93,32 @@ header{
 }
 .action-btn{
     margin-left: 23px;
+}
+
+/* productive-styles */
+.productive{
+    background-color:rgba(78, 71, 255, 0.1) ;
+    margin: 160px ;
+    border-radius: 24px;
+}
+.productive-section-tytle{
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    color: #252432;
+    padding-top: 50px;
+}
+.productive-section-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 306px;
+}
+.productive-section-subtitle h1{
+    font-size: 80px;
+    color: #4E47FF;
+}
+.productive-section-subtitle p{
+color: rgba(0, 0, 0, 0.5);
+font-size: 20px;
 }
