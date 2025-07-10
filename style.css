@@ -164,3 +164,38 @@ font-size: 20px;
 .reviewer-name{
     margin-top:24px ;
 }
+
+/* extra-section-styles */
+.extra-container{
+    background-color: #FFFFFF;
+    margin: 137px 150px;
+    border-radius: 14px;
+    height: 90vh;
+}
+.extra-tytle{
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    color: #000000;
+    padding-top: 71px;
+}
+.extra-para{
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+}
+.extra-btn{
+display: block;
+margin: 20px auto;
+}
+.extra-img{
+    display: block;
+    margin: 0 auto ;
+    border-radius: 48px;
+}
+
+/* git(get-in-touch)-styles */
+
+.form{
+    display: block;
+}
