@@ -122,3 +122,45 @@ header{
 color: rgba(0, 0, 0, 0.5);
 font-size: 20px;
 }
+
+/* feedback-styles */
+
+
+.feedback-container{
+    border: 1px solid #F2EDED;
+    border-radius: 14px;
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 24px 97px 24px 20px;
+}
+.feedback-main-tytle{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    text-align: center;
+}
+
+.feedback-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    gap: 20px;
+}
+
+.feedback-container img{
+    margin-top: 24px;
+}
+.feedback-tytle{
+    margin-top: 24px;
+}
+.feedback-subtitle{
+    margin-top: 8px;
+}
+
+.feedback-review{
+    display: flex;
+    gap: 12px;
+}
+.reviewer-name{
+    margin-top:24px ;
+}
