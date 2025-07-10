@@ -19,10 +19,7 @@
   font-weight: weight;
   font-style: normal;
   font-variation-settings:
-    "wdth" 100;
-}
-
-
+    "wdth" 100;}
 
 /* shared-styles */
 .btn{
@@ -67,4 +64,31 @@ header{
     font-size: 65px;
     font-weight: bold;
     padding: 150px;
+}
+
+/* action-styles */
+
+.action{
+    background-color: rgba(212, 211, 255, 0.203);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 116px;
+}
+.action-img{
+   border-radius: 48px;
+}
+.section-tytle{
+    font-size: 42px;
+    font-weight: bold;
+    color: #252432;
+    padding: 23px;
+}
+.action-subtitle{
+    font-size: 24px;
+    color: rgba(37, 36, 50, 0.5);
+    padding: 23px;
+}
+.action-btn{
+    margin-left: 23px;
 }
