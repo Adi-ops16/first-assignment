@@ -36,7 +36,7 @@
 }
 .btn:hover{
     background-color: rgba(78, 71, 255, 0.82);
-    color: black;
+    color: rgba(0, 0, 0, 0.499);
     font-weight: 750;
     cursor: pointer;
 }
